@@ -1,0 +1,235 @@
+.body{
+    margin: 0;
+}
+
+.newimg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vw;
+   
+    
+}
+
+.newimg-container{
+   position: relative;
+   
+    
+}
+
+.newimg-container img{
+    border-radius: 2%;
+    
+     
+ }
+ 
+
+.opa{
+    border-radius: 2%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 2;
+    top: 0;
+    opacity: 0.6;
+ }
+ 
+
+
+.newimg-container button{
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10px;
+    font-size: 1.2vw;
+    color: #1D232C;
+    border-radius: 10px;
+    position: absolute;
+    border: none;
+    top: 50%;
+    left: 18%;
+    z-index: 2;
+    
+
+ }
+
+.sale{
+   
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vw;
+    overflow-y: scroll;
+    overflow-x:scroll;
+   
+    gap: 20px;
+   
+   
+    
+}
+
+.sale-container{
+   position: relative; 
+}
+
+.dimage img{
+    width: 18vw;
+    border-radius: 2%;
+    display: inline-block;
+    
+     
+ }
+
+ .overlay{
+    position: absolute;
+    top:3px;
+    left: 3px;
+    font-size: 2vw;
+    background-color: red;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10%;
+ }
+
+ .sale::-webkit-scrollbar {
+    appearance: none;
+    
+  }
+   
+.heart{
+    position: absolute;
+    width: 15%;
+    bottom: 12%;
+    right: 5%;
+}
+
+.box{
+    font-size: 2vw;
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.box input{
+   
+    padding: 11px;
+    width: 80vw;
+    height:3vw;
+    align-items: center;
+    margin-bottom: 9px;
+    border: solid #1D232C 3px;
+
+}
+
+.box input:focus{
+   outline: none;
+
+}
+
+
+.box button{
+    
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    padding:10px
+    
+    
+
+ }
+ .contact input{
+   
+    padding: 11px;
+    width: 50vw;
+    height:5vw;
+    align-items: center;
+    margin-bottom: 9px;
+    border: solid #1D232C 3px;
+
+}
+
+.contact input:focus{
+   outline: none;
+
+   
+}
+.contact1 input{
+   
+    padding: 11px;
+    width: 50vw;
+    height:8vw;
+    align-items: center;
+    margin-bottom: 9px;
+    border: solid #1D232C 3px;
+
+}
+.img-scroll{
+   
+    transition: 3s;
+ }
+
+ .allimg{
+    opacity: 0;
+ }
+ .vertical-text{
+    grid-column: auto;
+    position: absolute;
+    left: 7px;
+    margin-left: 2px;
+    top: 60px;
+    
+    height: 800px;
+    
+ }
+ /*vertical line*/
+ .vertical-line{
+    border-left: 6px solid black;
+    position: absolute;
+    left: 20%;
+    margin-left: -4px;
+    top: 60px;
+    
+    height: 1200px;
+    background-color: black;
+ }
+ 
+
+.dresscollection{
+    
+    margin-top:0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size:1vw;
+}
+.right-side{
+    
+    position: relative;
+    object-fit: cover;
+    margin-top: 0%;
+    padding: 10px;
+    
+    margin-left: 30%;
+
+}
+@media screen and (max-width:800px){
+    body img,h1,p,button{
+      font-size: 10px;
+    
+    }
+    .vertical-line{
+        
+        
+        left: 30%;
+        
+        top: 250px;
+        
+        height: 400px;
+        background-color:gray;
+     }
+    
+    }

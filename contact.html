@@ -29,6 +29,35 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
 
   <nav class="bg-white  p-3 flex items-center justify-between shadow-xl sticky z-10">
     <h1 class="text-2xl font-bold">Nostra</h1>
+
+    <!--side bar-->
+    <section id="sidenav" class=" bg-gray-800  fixed z-20 top-0 transition-all duration-1000" style="width: 50%; height: 100vh;right:-50% ;">
+      <div class="text-right p-5">
+        <p  id="closenav" class="inline cursor-pointer">X</p>
+      </div>
+      
+              <ul class="flex flex-col gap-5 items-center text-white md:flex ">
+                  <li>
+                      <a class="hover:underline hover:text-black" href="#">Home</a>
+                  </li>
+                  <li>
+                      <a class="hover:underline  hover:text-black" href="#new-arrival">New Arrival</a>
+                  </li>
+                  <li>
+                      <a class="hover:underline  hover:text-black" href="#most-wanted">Most Wanted</a>
+                  </li>
+                  <li>
+                      <a class="hover:underline  hover:text-black" href="collection.html">Collections</a>
+                  </li>
+                  <li>
+                      <a class="hover:underline  hover:text-black" href="contact.html">Contact Us</a>
+                  </li>
+              </ul>
+              </section>
+      
+
+     
+
     <!--heroicons menu-->
     <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
       stroke="currentColor" class="w-8 md:hidden">
@@ -55,22 +84,22 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
   </nav><br><br>
 
   <!--contact page-->
-  <section class="p-20 mr-32 ml-32 rounded-md bg-gray-800 top-0  justify-center "><br>
-   <h2 class="font-bold ml-20 text-white text-4xl">contact us</h2><br>
-    <div class="contact ml-20 ">
+  <section class="p-10 mr-20 ml-20  md:p-20 md:mr-32 md:ml-32 rounded-md bg-gray-800 top-0  justify-center "><br>
+   <h2 class="font-bold ml-3 md:ml-20 text-white text-4xl">contact us</h2><br>
+    <div class="contact ml-3 md:ml-20 ">
       <label class="text-white">Name:</label><br>
-      <input class="p-3 rounded-md bg-white">
+      <input class="p-1 md:p-3 rounded-md bg-white">
     </div><br>
-    <div class="contact ml-20 ">
+    <div class="contact ml-3 md:ml-20 ">
       <label class="text-white">Email:</label><br>
-      <input class="p-3 rounded-md bg-white">
+      <input class="p-1 md:p-3 rounded-md bg-white">
     </div><br>
-    <div class="contact1 ml-20 ">
+    <div class="contact1 ml-3 md:ml-20 ">
       <label class="text-white">Message:</label><br>
-      <input class="p-3 rounded-md bg-white">
+      <input class= "p-1 md:p-3 rounded-md bg-white">
     </div><br>
-    <div class=" contact ml-20">
-      <button class="p-3 rounded-md text-white bg-blue-800">submit</button>
+    <div class=" contact ml-3 md:ml-20">
+      <button class="p-1 md:p-3 rounded-md text-white bg-blue-800">submit</button>
     </div><br>
 
     </section>
@@ -80,8 +109,8 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
   <!--news-->
   
   <div class="box">
-    <h2 class="font-bold text-5xl">Join our News Letter</h2>
-    <p class="text-3xl">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+    <h2 class="font-bold text-2xl md:text-5xl">Join our News Letter</h2>
+    <p class="text-20px  md:text-3xl">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
     <div style="margin-top: 10px;">
     <input class="search">
 </div>
@@ -93,10 +122,10 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
 </div><br><br>
 <!--footer-->
 
-<div class="bg-gray-800 p-20">
+<div class="bg-gray-800 p-10  md:p-20">
     <div class="footer-box-1 ">
-        <h2 class="text-5xl top-0 text-white font-bold">Nostra</h2><br><br>
-        <p class="text-white text-4xl ">The Standard chunk of Lorem ipsum
+        <h2 class="text-2xl  md:text-5xl top-0 text-white font-bold">Nostra</h2><br><br>
+        <p class="text-white text-2xl md:text-4xl ">The Standard chunk of Lorem ipsum
             used since the 1500s is reprodused
             below for those interest</p><br><br>
         <div >
@@ -117,7 +146,7 @@ https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
 
 
 
-<script src="./index.js"></script>
+<script src="./contact.js"></script>
   </body>
   </html>
 
